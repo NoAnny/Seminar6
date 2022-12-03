@@ -6,9 +6,6 @@
 
 Console.Write("Введите через запятую любое количество чисел: ");
 int[] numbers = StringToNum(Console.ReadLine()!); //переводим строку в массив
-//Console.WriteLine("Полученный массив:");
-//Console.Write("["+ string.Join(", ", numbers)+ "]");//печатаем массив
-//Console.WriteLine();
 Console.WriteLine($"Количество чисел больше нуля равно: {SumNumbers(numbers)}");
 
 //Получаем массив
